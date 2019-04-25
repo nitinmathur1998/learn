@@ -1,0 +1,41 @@
+div.relative
+{
+    box-sizing: content-box;
+    border-radius: 12px;
+    border: 5px solid coral;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    -webkit-animation: mymove 3s;
+    animation: mymove 3s;
+}
+@-webkit-keyframes mymove
+{
+    from{left: 0px;}
+    to {left: 500px;}
+}
+@keyframes mymove
+{
+  from{left: 0px;}
+  to{left: 500px;}
+}
+body
+{
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: "Sofia";
+    font-size: 18px;
+    
+}
+#col
+{
+  background-color: rgb(255, 174, 0);
+  border-radius: 12px;
+}
+#col1
+{
+  background-color: red;
+  border-radius: 12px;
+}
